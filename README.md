@@ -1,11 +1,24 @@
-# Sample Snack app
+# Weather & News Aggregator App 🌦️📰
 
-Open the `App.js` file to start writing some code. You can preview the changes directly on your phone or tablet by scanning the **QR code** or use the iOS or Android emulators. When you're done, click **Save** and share the link!
+A React Native app built with Expo and Redux that aggregates weather information and news headlines, with weather-based news filtering.
 
-When you're ready to see everything that Expo provides (or if you want to use your own editor) you can **Download** your project and use it with [expo cli](https://docs.expo.dev/get-started/installation/#expo-cli)).
+## Features
+- Fetch current weather (OpenWeatherMap API).
+- 5-day weather forecast.
+- Fetch top news headlines (NewsAPI).
+- Weather-based news filtering:
+  - ❄️ Cold → depressing news
+  - ☀️ Hot → fear-related news
+  - 🌤️ Cool → happy & winning news
+- Settings to switch Celsius/Fahrenheit & select news categories.
 
-All projects created in Snack are publicly available, so you can easily share the link to this project via link, or embed it on a web page with the `<>` button.
+## Tech Stack
+- React Native (Expo)
+- Redux for state management
+- OpenWeatherMap API
+- NewsAPI
 
-If you're having problems, you can tweet to us [@expo](https://twitter.com/expo) or ask in our [forums](https://forums.expo.dev/c/expo-dev-tools/61) or [Discord](https://chat.expo.dev/).
-
-Snack is Open Source. You can find the code on the [GitHub repo](https://github.com/expo/snack).
+## Setup Instructions
+1. Clone the repo:
+   ```bash
+   git clone https://github.com/<your-username>/<repo-name>.git
